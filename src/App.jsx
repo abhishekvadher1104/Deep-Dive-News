@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<News Pagesize="5" Country="in" Category=""/>} />
+          <Route path="/" element={<News Pagesize="5" Country="us" Category=""/>} />
           <Route path="/in" element={<News Pagesize="5" Country="in" Category="" />} />
           <Route path="/sa" element={<News Pagesize="5" Country="sa" Category="" />} />
           <Route path="/us" element={<News Pagesize="5" Country="us" Category="" />} />
